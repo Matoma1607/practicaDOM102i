@@ -65,7 +65,7 @@
     </header>
     <main class="container my-5">
       <section>
-        <h1>Sobre el DOM (Document objet model)</h1>
+        <h1 id="titulo">Sobre el DOM (Document objet model)</h1>
 
         <p>
           El DOM (Document Object Model) en JavaScript es una representación
@@ -76,11 +76,23 @@
           JavaScript, permitiendo interactuar con elementos HTML como etiquetas,
           atributos, estilos y eventos.
         </p>
-        <button class="btn btn-primary">Cambiar</button>
+        <button class="btn btn-primary" onclick="cambiarTitulo()">Cambiar</button>
       </section>
       <section class="mt-5">
         <h2>Manipular elementos HTML desde JavaScript</h2>
-        <p>Trabajar con el DOM (Document Object Model) implica interactuar con la estructura de una página web mediante JavaScript. El DOM organiza la página como una estructura de árbol donde cada elemento HTML es representado como un objeto que puede ser accedido, modificado o eliminado. Para trabajar con el DOM, puedes seleccionar elementos mediante métodos como getElementById, querySelector, getElementsByClassName, entre otros. Una vez seleccionados, puedes cambiar su contenido, estilo, atributos o incluso crear nuevos elementos. La modificación del DOM ocurre a través de métodos y propiedades como innerHTML, setAttribute, style, appendChild, entre otros.</p>
+        <p>
+          Trabajar con el DOM (Document Object Model) implica interactuar con la
+          estructura de una página web mediante JavaScript. El DOM organiza la
+          página como una estructura de árbol donde cada elemento HTML es
+          representado como un objeto que puede ser accedido, modificado o
+          eliminado. Para trabajar con el DOM, puedes seleccionar elementos
+          mediante métodos como getElementById, querySelector,
+          getElementsByClassName, entre otros. Una vez seleccionados, puedes
+          cambiar su contenido, estilo, atributos o incluso crear nuevos
+          elementos. La modificación del DOM ocurre a través de métodos y
+          propiedades como innerHTML, setAttribute, style, appendChild, entre
+          otros.
+        </p>
         <button class="btn btn-outline-info">Ver mas...</button>
       </section>
     </main>
@@ -92,5 +104,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
